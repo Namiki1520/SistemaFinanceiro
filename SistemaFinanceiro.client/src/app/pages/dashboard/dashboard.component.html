@@ -1,0 +1,137 @@
+<navbar></navbar>
+<sidebar></sidebar>
+
+
+<div class="container-base">
+    <div class="content-page">
+        <div class="container-cards">
+
+        <div class="card">
+            <div class="title">
+                <div class="card-icon blue">
+
+                </div>
+                <div class="card-category">
+                    investimentos
+                </div>
+                <h3 class="card-title">R$ 
+                    <span id="Investimento">
+                        {{objetoGrafico.investimentos}}
+                    </span>
+                </h3>
+            </div>
+
+            <div class="card-footer">
+                <div class="arrow">
+
+                </div>
+                <div class="info">
+                    off
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="title">
+                <div class="card-icon green">
+
+                </div>
+                <div class="card-category">
+                    Despesas pagas
+                </div>
+                <h3 class="card-title">R$ 
+                    <span id="Despesas_pagas">
+                        {{objetoGrafico.despesas_pagas}}
+                    </span>
+                </h3>
+            </div>
+
+            <div class="card-footer">
+                <div class="arrow">
+
+                </div>
+                <div class="info">
+                    off
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="title">
+                <div class="card-icon orange">
+
+                </div>
+                <div class="card-category">
+                    Despesas a pagar
+                </div>
+                <h3 class="card-title">R$ 
+                    <span id="Despesas_pendentes">
+                        {{objetoGrafico.despesas_pendentes}}
+                    </span>
+                </h3>
+            </div>
+
+            <div class="card-footer">
+                <div class="arrow">
+
+                </div>
+                <div class="info">
+                    off
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-cards">
+        <div class="card">
+            <div class="title">
+                <div class="card-icon red">
+
+                </div>
+                <div class="card-category">
+                    Despesas atrasadas
+                </div>
+                <h3 class="card-title">R$ 
+                    <span id="Despesas_naoPagasMesAnteriores">
+                        {{objetoGrafico.despesas_naoPagasMesAnteriores}}
+                    </span>
+                </h3>
+            </div>
+
+            <div class="card-footer">
+                <div class="arrow">
+
+                </div>
+                <div class="info">
+                    verificar despesas atrasadas
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="title">
+                <div class="card-icon red">
+
+                </div>
+                <div class="card-category">
+                    Copiar despesas
+                </div>
+                <h3 class="card-title">On
+                    <span id="Investimento">
+
+                    </span>
+                </h3>
+            </div>
+
+            <div class="card-footer">
+                <div class="arrow"></div>
+                <div (click)="ExecuteCopiaDespesasSistemaFinanceiro()" class="text-info">Executar</div>
+            </div>
+
+        </div>
+    </div>
+</div>

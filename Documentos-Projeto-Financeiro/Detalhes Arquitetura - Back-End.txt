@@ -1,0 +1,4 @@
+1- Dominio ( Serviços, validações e regras )
+2- Infra ( camada responsável por execução no banco de dados )
+3- Helpers ( camada de métodos de auxilio como os Singleton compartilhados )
+4- WebApi ( Camada de hospedagem das Apis disponíveis para o front-end )

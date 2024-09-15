@@ -1,0 +1,6 @@
+1- Identity ( Gerenciamento de usuários )
+2- Linq C# para as Querys
+3- Generics
+4- JWT ( Json Web Token) / Apis Autenticadas
+5- Dependency Injections (Singleton)
+6- CORS - Cross-Origin Resource Sharing (Compartilhamento de recursos com origens diferentes)

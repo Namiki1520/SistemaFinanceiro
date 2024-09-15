@@ -1,0 +1,5 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/Infra/Migrations/20230519015938_Inicial2.cs

@@ -1,0 +1,11 @@
+COMANDOS 
+
+seleciona o WEBAPI e define como projeto de inicialização
+Ferramentas > Gerenciador de Pacotes NuGet > Console do gerenciador
+No console > seleciona o projeto padrão INFRA(onde tem o contexto)
+
+(gera o migration)
+Add-Migration Inicial -Context ContextBase
+
+(executa o migration)
+Update-database -Context ContextBase

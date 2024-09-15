@@ -1,0 +1,6 @@
+Ferramentas
+
+1- Visual Studio 2022 / Para criação das Apis (Back-End) com C#
+2- Visual Code / para criação do Front-End com Angular
+3- Wql Server / Utilizado para criação do banco de dados
+
